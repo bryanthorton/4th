@@ -3,46 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>Bryanthorton.com/blog/more/</loc>
-    <lastmod>2018-07-26T17:44:36-07:00</lastmod>
+    <loc>/contact/</loc>
+    <lastmod>2018-07-14T17:09:20+06:00</lastmod>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/blog/second/</loc>
-    <lastmod>2018-07-25T17:44:36-07:00</lastmod>
+    <loc>/gallery/</loc>
+    <lastmod>2018-07-14T16:19:08+06:00</lastmod>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/blog/first/</loc>
-    <lastmod>2018-07-24T17:44:36-07:00</lastmod>
+    <loc>/service/</loc>
+    <lastmod>2018-07-14T12:58:14+06:00</lastmod>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/</loc>
-    <lastmod>2018-07-26T17:44:36-07:00</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/blog/</loc>
-    <lastmod>2018-07-26T17:44:36-07:00</lastmod>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>Bryanthorton.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>Bryanthorton.com/projects/</loc>
+    <loc>/projects/</loc>
   </url>
   
 </urlset>

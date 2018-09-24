@@ -1,91 +1,39 @@
-# The URL of your website.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "Bryanthorton.com/"
-
-# Title of your site
-title = "Bryant Horton"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
-copyright = ""
-
-theme = "../../"
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-#preserveTaxonomyNames = true
-paginate = 10
-
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
-
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-[outputs]
-  home = [ "HTML", "CSS", "RSS" ]
-  section = [ "HTML", "RSS" ]
-
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+baseURL = "/"
+languageCode = "en-us"
+title = "Bryanthorton.com"
+theme = "hugo-lodi-theme"
+googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
-  # Your details.
-  name = "Bryant Horton"
-  bio = "Portfolio"
+    theme_color = "#574CDD"
+    description = "Portfolio of Alexis Collado, UX Designer"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "horton.bryant@gmail.com"
+    facebook = "bryant.horton"
+    twitter = "BryantHorton6"
+    linkedin = "https://www.linkedin.com/in/bryant-horton-1c873/"
+    
+[params.nav]
+    enable = true
 
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+[params.hero]
+    enable = true
+    avatar = "avatar.jpg"
+    subtitle = "Hello I'm Bryant a Radar Maintenance Technician"
+    hero_right = ["**Currently working as a Military Training Leader**", "My passion for troubleshooting small and large voltage electronics makes me a strong addition to your team. During my first 4 years as a Radar Technician. I was able to repair a 5-million-dollar radar that was on its way to depot. Someone in my chain of command trusted my aptitude on the equipment and allowed me to troubleshoot the radar while it was in transit to depot. Within a week, I was able to find and solve the problem. There was a deflector in the sulfur hexafluoride (SF6) tank that was put on backwards from depot. This allowed -117 thousand kilovolts to ground out to the deflector instead of through the deflector. This accomplishment saved the Air Force 2 million dollars in repair costs. As a Radar Technician, I am mindful of the Air Force’s budget and deliberately provide maintenance with thought of keeping costs down for the Air Force. I understand the Radar theory, which allows me to troubleshoot problems further down to the component level. This allows for on the spot corrections and save funds in sending the component off for maintenance or sending a team in for a fix action. My focus as a Radar Technician is to forever be a student to the equipment. I am always learning, and I have a willingness to continue the learning process.  A hobby of mine is to continually learn about the advancement in current Radio Frequency technologies. How new technologies will affect my career field and how I can make job better/faster/efficient with these new technologies. I have had many accolades in my career in the Radar Technician career field. I have coined by the commander of the 455 communications squadron in Bagram, Afghanistan for my keen attention to detail. I was able to repair a 144 strand fiber run that was decimated by a mortar. I was again coined by the communications commander at Dover, Delaware for repairing 500 server related trouble tickets. Additionally, while repairing the trouble tickets I found a faulty fiber connection, once repaired this allowed servicemembers to dial 911 and the emergency management team would be able to locate the servicemember geographically."]
+    resume = "ResumeCollado.pdf"
 
-  location = "Bilxo, MS"
+[params.process]
+    enable = true
+    title = "Work History"
+    subtitle = "Skills"
 
-  # Discussion link (e.g. link to a forum, mailing list, or chat).
-  #   Uncomment line below to use.
-  #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
+[params.case_studies]
+    enable = true
+    title = "Hobbies"
+    subtitle = "Conservation"
 
-  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
-  #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
-
-  # Display comment count? Requires commenting to be enabled.
-  comment_count = true
-
-  # Enable native social sharing buttons?
-  sharing = true
-
-  # Privacy pack
-  #   Show a cookie consent message to visitors
-  #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = false
-
-  [[params.social]]
-    icon = "instagram"
-    icon_pack = "fa"
-    link = "//instagram.com/bryant_013"
-    text = "Instagram"
-
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fa"
-    link = "//linkedin.com/in/bryant-horton-1c873"
-    text = "LinkedIn"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/BryantHorton6"
-    text = "Twitter"
-
-# Taxonomies.
-# [taxonomies]
-#   tag = "tags"
-#   category = "categories"
-#   publication_type = "publication_types"
+[params.footer]
+    enable = false
